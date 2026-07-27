@@ -4,18 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SX 25</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        body{
+            margin-left:150px;
+            font-family:Arial, sans-serif;
+        }
+
+        a{
+            color:black;
+            text-decoration:none;
+        }
+
+        a:hover{
+            color:blue;
+        }
+    </style>
 </head>
-<body leftmargin="150">
-    <h1>Using Order List</h1>
+
+<body>
+
+    <h1>Using Mixed OL & UL</h1>
+
+    <ol>
+        <li>
+            <a href="https://t.me/Nyvann" target="_blank">
+                <i class="fab fa-telegram"></i> MIS
+            </a>
+
+            <ul>
+                <li>Web
+                    <ul>
+                        <li>Web</li>
+                        <li>Mobile</li>
+                        <li>UX/UI</li>
+                    </ul>
+                </li>
+                <li>Mobile</li>
+                <li>UX/UI</li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="https://t.me/Nyvann" target="_blank">
+                <i class="fab fa-telegram"></i> BIT
+            </a>
+
+            <ul>
+                <li>Digital</li>
+                <li>Accounting</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h1>Using Ordered List</h1>
+
     <ol type="A">
         <li>Heading 1</li>
         <li>Heading 2</li>
     </ol>
-    <h1>Using Unorder List</h1>
-    <ul type="circle">
+
+    <h1>Using Unordered List</h1>
+
+    <ul style="list-style-type:circle;">
         <li>Heading 1</li>
         <li>Heading 2</li>
     </ul>
-    
+
 </body>
 </html>
